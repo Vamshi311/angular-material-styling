@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    width: 200px;
+    height: 150px;
+    
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 150px;
+    margin-top: 10px;
+
+}
+
+/* @media all and (max-width: 800px) {
+    .flex-container{
+        flex-direction: column;
+    }
+} */
